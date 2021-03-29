@@ -1,49 +1,93 @@
 body {
         background: #fff
-        font-family: arial, sans-serif
+        font-family: Arial;
+        font-size: 14px
         font-color: #000
+        text-decoration: none;
     }
 
-a {
-        color: #000;
-        text-decoration: none
-        margin: 20px;
+    a {
+        color: #000000;
+        text-decoration: none;
+        margin: 14px;
         
     }
     
-a:hover,a:active {
-        text-decoration: underline
-    }
+    a:hover {
+        text-decoration: underline;
+      }
     
-a:visited {
-        color: #609
+ul {
+        font-size: 14px;
+        list-style-type: none;
+        margin: 0;
+        padding: 20px;
+        
     }
 
+.alignleft{
+    font-family: Arial;
+    font-size: 14px;
+    float:left;
+    padding: 4px;
+    
+}
+.alignright{
+    font-family: Arial;
+    padding: 5px;
+    float:right
+    
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 0, auto;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 0 1px 6px rgb(32, 33, 36, 28%);
+    
+  }
+
+
+
+
+
+
 .signin{
-    font-family: Google-sans
+    position: relative; top:-9px;
+    font-family: Arial;
+    color: white;
+    margin-top: 0;
     background-color: #1A73E8;
-    color: #fff
     margin: 0px 8px;
     padding:9px 23px;
+    border-radius:5px;
+    border-style: none;
 }
 
 .search-button{
+    font-family:Arial, Helvetica, sans-serif;
     background-color: #F8F9FA
-    margin: 11px;
-    padding: 0px, 16px;
+    margin: 11px 4px;
+    padding: 0, 16px;
+    box-shadow: 0 1px 1px rgb(0, 0, 0, 10%);
+    margin-right:15px;
     
 }
 
-
-
 #footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    a-color: #70757A;
+    background-color: #f2f2f2;
     position: fixed;
+    padding: 20px;
     bottom: 0px;
-    left: 0px;
-}
-
-
-
+    left:0px;
+    
+    }
 
 
 
